@@ -40,6 +40,10 @@ As of 2026-10-02, scanned against Claude Code 2.1.287: **359 mods** in **373 can
 - [session-wrapped](https://github.com/OneWave-AI/claude-code-mods/tree/main/session-wrapped) - `/wrapped` plays an animated recap of the session and writes a shareable PNG card, with week and month totals read from local transcripts.
 - [context-view](https://github.com/kongyo2/context-view) - The context window as one row above the prompt, drawn like Claude Code's own meters, with the percentage used, tokens over the window and tokens left before auto-compact, plus `/context-view` to hide or show it.
 - [wavy-usage](https://github.com/BatuhanCakmakk/wavy-usage) - Desktop usage rings and an effort-level jet, with estimated cache lifetime, recent turn costs, observed 5-hour window growth and a breakdown of locally recorded sessions; the terminal gets a text band.
+- [hud](https://github.com/hoobnn/hoobnn-agent-mods/tree/main/claude-code/hud) - claude-hud as a mod above or below the prompt, with quota alerts, a usage forecast, a daily budget, a one-line task summary forked from the conversation, a detail pane and twelve themes.
+- [todo-bar](https://github.com/hoobnn/hoobnn-agent-mods/tree/main/claude-code/todo-bar) - The task list as a progress bar above the prompt, with the running task's time, read from the todo and task tools' own results.
+- [receipt](https://github.com/hoobnn/hoobnn-agent-mods/tree/main/claude-code/receipt) - One row after each turn with the files changed, lines added and removed, commands run and failed, plus a toast when the model goes in circles.
+- [ts-band](https://github.com/hoobnn/hoobnn-agent-mods/tree/main/claude-code/ts-band) - Tailscale nodes above the prompt from `tailscale status --json`, listing only the relayed or offline ones, with a toast when a node comes up or goes down.
 
 ## While you wait
 
@@ -50,6 +54,8 @@ As of 2026-10-02, scanned against Claude Code 2.1.287: **359 mods** in **373 can
 - [time](https://github.com/diegorv/claude-functions-hook/tree/main/plugins/time) - The time you sent each message, drawn above it.
 - [boss-fight](https://github.com/OneWave-AI/claude-code-mods/tree/main/boss-fight) - Failing tests spawn a pixel boss with one HP per failure, and each run that fixes tests lands a hit.
 - [intermission](https://github.com/jarrodwatts/intermission) - Doom deathmatch in a Ghostty or kitty pane on macOS 15+, returning you to Claude when it finishes or needs input; downloads and runs Odamex and connects to a shared game server.
+- [spinner](https://github.com/hoobnn/hoobnn-agent-mods/tree/main/claude-code/spinner) - Pixel-art scenes above the prompt while a turn runs, in fourteen themes, with a pet that follows the running tool, levels up and gets a confetti finale.
+- [hitokoto](https://github.com/hoobnn/hoobnn-agent-mods/tree/main/claude-code/hitokoto) - A quote fetched from the Hitokoto (一言) API above the prompt with its source, refreshed on a timer, once a day, per session or per prompt.
 
 ## Git, pull requests and CI
 
